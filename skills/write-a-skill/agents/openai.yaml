@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write a Skill"
+  short_description: "Author a portable, concise skill with a trigger-rich description"
+  default_prompt: "Help me write a new skill."

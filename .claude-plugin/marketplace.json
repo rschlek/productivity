@@ -1,0 +1,15 @@
+{
+  "name": "productivity",
+  "owner": {
+    "name": "Rainier"
+  },
+  "description": "Single-plugin catalog so this repository can be installed directly.",
+  "plugins": [
+    {
+      "name": "productivity",
+      "source": "./",
+      "description": "Portable productivity skills: handoff documents, plan grilling, watchdogs outside the chat, explain-before-fix, one-at-a-time decision walks, and skill authoring.",
+      "category": "productivity"
+    }
+  ]
+}

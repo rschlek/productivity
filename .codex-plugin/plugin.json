@@ -1,0 +1,23 @@
+{
+  "name": "productivity",
+  "version": "1.0.0",
+  "description": "Portable, general-purpose productivity skills for any workflow: hand the conversation off to a new agent (handoff), get a plan stress-tested through relentless interview (grill-me), stand up a monitor outside the chat (watch), explain a problem before touching it with options and one recommendation (explain), turn the agent's own pile of findings and jargon into small plain-language decisions walked one at a time (untangle), and author a new skill that is portable, concise, in a generic voice, with a trigger-rich description (write-a-skill).",
+  "author": {
+    "name": "Rainier"
+  },
+  "repository": "https://github.com/rschlek/productivity",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Productivity",
+    "shortDescription": "Portable helpers: handoff, plan grilling, watchdogs, explain-before-fix, one-at-a-time decision walks, skill authoring.",
+    "longDescription": "Portable, general-purpose productivity skills for any workflow: hand the conversation off to a new agent (handoff), get a plan stress-tested through relentless interview (grill-me), stand up a monitor outside the chat (watch), explain a problem before touching it with options and one recommendation (explain), turn the agent's own pile of findings and jargon into small plain-language decisions walked one at a time (untangle), and author a new skill that is portable, concise, in a generic voice, with a trigger-rich description (write-a-skill).",
+    "developerName": "Rainier",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Explain this before you change anything."
+  }
+}

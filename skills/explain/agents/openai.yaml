@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain"
+  short_description: "Explain a problem and the options before anything changes"
+  default_prompt: "Explain what is going on before you change anything."

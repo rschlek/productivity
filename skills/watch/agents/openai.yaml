@@ -1,0 +1,4 @@
+interface:
+  display_name: "Watch"
+  short_description: "Run a clock-aligned monitor or watchdog outside the chat"
+  default_prompt: "Watch this job and tell me only when something changes."

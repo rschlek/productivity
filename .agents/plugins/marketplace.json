@@ -1,0 +1,14 @@
+{
+  "name": "productivity",
+  "interface": {
+    "displayName": "Productivity (direct install)"
+  },
+  "plugins": [
+    {
+      "name": "productivity",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
