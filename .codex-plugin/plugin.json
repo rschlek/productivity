@@ -1,6 +1,6 @@
 {
   "name": "productivity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Portable, general-purpose productivity skills for any workflow: hand the conversation off to a new agent (handoff), get a plan stress-tested through relentless interview (grill-me), stand up a monitor outside the chat (watch), explain a problem before touching it with options and one recommendation (explain), turn the agent's own pile of findings and jargon into small plain-language decisions walked one at a time (untangle), and author a new skill that is portable, concise, in a generic voice, with a trigger-rich description (write-a-skill).",
   "author": {
     "name": "rschlek"
