@@ -1,17 +1,11 @@
 ---
 name: deepen
 description: >-
-  Rewrite a task or prompt into a deeper version of itself, not a bigger one:
-  before doing the work, say what a top professional would do that was not
-  asked for, the rawest material they would start from, the methods and tools
-  they would use, and what outside the agent and the user would show the result
-  is right, then rewrite the request to ask for exactly that and stop for the
-  user's go. Use when the user says "deepen", "deepen this", "a deeper version",
-  "deeper, not bigger", "what would a pro do here", "how would an expert
-  approach this", or "make this prompt better" for a task about to be run. Do NOT
-  use for stress-testing a plan the user already has (that is grill-me), for
-  explaining a problem before a fix (that is explain), or for widening a task's
-  scope.
+  Rewrite a task into the deeper version a top professional would ask for, then
+  stop for the user's go. Use when the user says "deepen", "deeper, not bigger",
+  "what would a pro do here", or "make this prompt better" before a task runs.
+  Do NOT use for stress-testing the user's plan (that is grill-me), explaining a
+  problem before a fix (that is explain), or widening a task's scope.
 ---
 
 # Deepen
