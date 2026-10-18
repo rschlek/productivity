@@ -1,6 +1,6 @@
 project: productivity
 title: Productivity
-summary: "Portable productivity skills for Claude Code and Codex: handoff documents, plan grilling, watchdogs outside the chat, explain-before-fix, one-at-a-time decision walks, and skill authoring, for anyone who works with a coding agent."
+summary: "Portable productivity skills for Claude Code and Codex: handoff documents, plan grilling, watchdogs outside the chat, explain-before-fix, one-at-a-time decision walks, skill authoring, and task deepening, for anyone who works with a coding agent."
 scope: personal
 visibility: public
 tracking:

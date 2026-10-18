@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deepen"
+  short_description: "Rewrite a task the way a top professional would ask it"
+  default_prompt: "Deepen this task before you start."

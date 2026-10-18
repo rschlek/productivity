@@ -4,7 +4,8 @@ Portable, general-purpose productivity skills for Claude Code and Codex:
 handoff documents another agent can pick up, a relentless interview that
 stress-tests the user's plan, monitors and watchdogs that run outside the chat,
 explain-before-fix briefs, the agent's own pile of findings walked back to the
-user one small decision at a time, and authoring new skills. Nothing here is
+user one small decision at a time, authoring new skills, and rewriting a task
+into the deeper version a top professional would ask for. Nothing here is
 tied to one person, machine, or workflow.
 
 ## Skills
@@ -17,6 +18,7 @@ tied to one person, machine, or workflow.
 | `explain` | Explains a problem or topic before anything changes: the problem as observed, the mechanism, and when a change is pending the options with trade-offs and one recommendation, then waits for the user's go. | Nothing beyond the agent. |
 | `untangle` | Turns the agent's own pile (findings, options, jargon, a status dump) into small plain-language decisions walked one per turn, each with a recommendation, with what is already decided kept apart from what is open. | Nothing beyond the agent. |
 | `write-a-skill` | Authors a new skill (a `SKILL.md` plus optional bundled files) that is portable, concise, in a generic voice, with a trigger-rich description, and reviews it with the user against a checklist. | Nothing beyond the agent. |
+| `deepen` | Rewrites a task into a deeper version, not a bigger one: what a top professional would add, the rawest material to start from, the methods and tools, and an outside check on the result, then waits for the user's go. | Nothing beyond the agent. |
 
 ## Platform notes
 
