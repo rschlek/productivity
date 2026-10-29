@@ -10,8 +10,8 @@ description: >-
   overwhelmed", "plain English", "where do we stand", or "I don't remember my
   open decisions". Also use unprompted when a reply would hand the user more
   than three open decisions at once. Do NOT use for stress-testing a plan the
-  user already has (that is grill-me), for one problem that needs a root cause
-  and a single go (that is explain), or for cleaning up code.
+  user already has (that is grill-me), for understanding one thing with no
+  decisions attached (that is explain), or for cleaning up code.
 ---
 
 # Untangle
@@ -77,5 +77,5 @@ arrived as a pile. Hand it back as decisions they can answer in a word.
   if the user wants to settle the open ones now.
 - Direction is the difference from grill-me: grill-me pulls answers out of the
   user about their plan; this hands the agent's pile to the user in pieces. When
-  one decision needs a root cause established before it can be asked, settle
-  that with explain, then return to the walk.
+  one decision needs something understood before it can be asked, settle that
+  with explain, then return to the walk.

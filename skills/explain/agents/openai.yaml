@@ -1,4 +1,4 @@
 interface:
   display_name: "Explain"
-  short_description: "Explain a problem and the options before anything changes"
-  default_prompt: "Explain what is going on before you change anything."
+  short_description: "Explain one thing in plain language, with no decisions attached"
+  default_prompt: "Explain this plainly before you change anything."

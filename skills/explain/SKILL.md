@@ -1,53 +1,71 @@
 ---
 name: explain
 description: >-
-  Explain a problem or a topic before anything is changed: what it is, why it is
-  happening, and, when a change is on the table, the options with trade-offs and
-  one recommendation, then stop for the user's go. Use when the user says
-  "explain first", "before you fix anything", "don't fix it yet", "what's going
-  on and what are our options", "help me understand X", "why does X work", or
-  asks for options and a recommendation. Also use unprompted when a fix would
-  touch a running system and the root cause is not yet established. Do NOT use
-  for a plain "fix it" with a known cause, for stress-testing a plan the user
-  already has (that is grill-me), for walking the user one at a time through a
-  pile of findings, options, or open decisions the agent itself just produced
-  (that is untangle), or for capturing a task.
+  Explain one thing in plain language so the user understands it, with no
+  decisions attached: a problem, a mechanism, a topic, or a piece of the
+  agent's own output. Changes register out loud, gives the whole picture in a
+  few plain paragraphs with every term translated and one everyday comparison,
+  then follows the user's questions and makes it smaller when it does not
+  land. Use when the user says "explain", "explain first", "help me understand
+  X", "why does X work", "what's going on here", "what does this mean", "plain
+  English", "I don't understand", or "don't fix it yet, just explain". Also use
+  unprompted when a fix would touch a running system and the root cause is not
+  yet established. Do NOT use for stress-testing a plan the user already has
+  (that is grill-me), for walking the user through decisions one at a time
+  (that is untangle), for proposing options or a recommendation, or for
+  capturing a task.
 ---
 
 # Explain
 
-Understand before acting. The output is a brief the user can decide from, not a
-change. Nothing is edited, restarted, or reconfigured until the user says go.
+Understanding is the whole deliverable. No options, no recommendation, no
+decisions, and nothing is edited, restarted, or reconfigured. If the user wants
+a change afterwards, they ask for it in a separate turn.
 
 ## Procedure
 
-1. **Pin the subject.** State the precise problem or question, as observed, in
-   one or two sentences. Cite the evidence that shows it: the error text, the log
-   line, the file and line, the measurement. Facts, not impressions.
-2. **Explain the mechanism.** Why it is happening, or how it works. Separate the
-   root cause from the trigger and from the symptom. If forensics are needed to
-   establish this, delegate the reading and keep the brief here. Do not guess.
-3. **Fork on whether a change is pending.**
-   - *A fix or change is on the table:* lay out two to four options. For each,
-     say what it does, what it costs, whether it is reversible, and what it does
-     not fix. Label a workaround as a workaround and name the real fix it defers.
-     Give one recommendation and the single reason that decides it. End with
-     "Your call." and wait.
-   - *Nothing is pending:* keep going as a dialogue. Drop to concrete examples,
-     check understanding, follow the threads the user pulls, and stop when their
-     curiosity is satisfied.
+1. **Change register, out loud.** One line that says so ("Let me back up and
+   say this plainly"). If a mix-up was the agent's, name it in that line.
+2. **Pin the subject.** The precise problem or question, as observed, in one or
+   two sentences. For a problem, cite the evidence that shows it: the error
+   text, the log line, the file and line, the measurement. Facts, not
+   impressions.
+3. **Give the whole picture in plain words.** Three short paragraphs at most:
+   what this thing is, why it is happening or how it works, and why it matters
+   to the user. Separate the root cause from the trigger and from the symptom.
+   Every term is translated or dropped. One everyday comparison is worth more
+   than a second paragraph of detail. If forensics are needed to establish the
+   mechanism, delegate the reading and keep the explanation here. Do not guess.
+4. **Keep going as a dialogue.** Drop to concrete examples, check
+   understanding, follow the threads the user pulls, and stop when their
+   curiosity is satisfied. One idea per turn; do not preview what comes next.
+5. **If it did not land, make it smaller.** Split the idea, define the one term
+   in the way, or give a concrete example. Never repeat the same explanation at
+   greater length.
+6. **Keep decisions out.** If the explanation surfaces choices the user will
+   have to make, say in one line that there are some and how many, and leave
+   them for a separate walk, one at a time. Do not list them, rank them, or
+   recommend.
 
-## Shape of the brief (fix pending)
+## Never
 
-Problem, Mechanism, Options, Recommendation and why, then the wait. One screen.
-Plain words, evidence cited inline, no code unless the diff itself is the
-decision.
+- Offer options, a recommendation, or a plan. Those are a different job.
+- Explain with shorthand: bare dates, ticket or decision numbers, acronyms, or
+  labels coined earlier in the session. Restate the thing itself.
+- Pad with everything known about the subject. Explain the user's situation,
+  not the general topic.
+- Slide back into a bulk reply. Once the user asks for plain language, that
+  holds for the rest of the session.
 
 ## Notes
 
 - Ground it in why this is surfacing now, from the conversation, so it reads as
   a diagnosis of the user's situation rather than a generic explainer.
-- The wait is the point. A recommendation is not a go, and "sounds right" is not
-  a go. Proceed only on an explicit yes, and then do exactly the option chosen.
-- Root cause over workaround: if only a mitigation is possible now, say so and
-  say what the proper fix costs.
+- If the cause is not established, say what is known, what is not, and what
+  would settle it, without proposing the fix.
+- The same shape fits reviewing long material: one section per turn, with what
+  that section is for stated in plain words directly above it.
+- Direction is the difference from untangle: untangle hands the agent's pile
+  back as decisions; this hands back understanding and no decisions. When a
+  decision walk needs something understood first, do that here, then return to
+  the walk.
