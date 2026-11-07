@@ -1,6 +1,6 @@
 {
   "name": "productivity",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Portable, general-purpose productivity skills for any workflow: hand the conversation off to a new agent (handoff), get a plan stress-tested through relentless interview (grill-me), stand up a monitor outside the chat (watch), explain one thing in plain language with no decisions attached (explain), turn the agent's own pile of findings and jargon into small plain-language decisions walked one at a time (untangle), reorient a chat around its original purpose and route every open thread toward continue or close (recenter), chart a piece of work too big for one session as a map of decision tickets on the issue tracker (wayfinder), research a question against primary sources into a cited notes file (research), build a throwaway prototype that answers one design question (prototype), sharpen a project's glossary and decision records as you design (domain-modeling), and author a new skill that is portable, concise, in a generic voice, with a trigger-rich description (write-a-skill).",
   "author": {
     "name": "rschlek"
