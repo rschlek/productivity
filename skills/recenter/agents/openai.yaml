@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recenter"
+  short_description: "Reorient a chat on its original purpose, ledger what is open, and decide whether to continue or close"
+  default_prompt: "Where were we? Recenter this chat and tell me what is still open."
