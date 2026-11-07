@@ -1,4 +1,4 @@
 interface:
   display_name: "Recenter"
-  short_description: "Reorient a chat on its original purpose, ledger what is open, and decide whether to continue or close"
+  short_description: "Untangle for the whole session: the plain picture from the first message, open threads routed one per turn, then continue or close"
   default_prompt: "Where were we? Recenter this chat and tell me what is still open."
