@@ -4,8 +4,7 @@ Portable, general-purpose productivity skills for Claude Code and Codex:
 handoff documents another agent can pick up, a relentless interview that
 stress-tests the user's plan, monitors and watchdogs that run outside the chat,
 plain-language explanations with no decisions attached, the agent's own pile of
-findings walked back to the user one small decision at a time, a chat
-reoriented around its original purpose with every open thread routed, big efforts
+findings walked back to the user one small decision at a time, big efforts
 charted as decision tickets on the issue tracker, research from primary
 sources, throwaway prototypes, a living glossary with decision records, and
 authoring new skills. Nothing here is tied to one person, machine, or workflow.
@@ -19,7 +18,6 @@ authoring new skills. Nothing here is tied to one person, machine, or workflow.
 | `watch` | Stands up a monitor, heartbeat, or overnight babysitter outside the current chat (clock-aligned ticks, explicit done and abort conditions, notify only on change) and launches long jobs fail-fast through a plan, preflight, canary, and ramp. | bash (Linux, macOS, or Git Bash on Windows) for the bundled scripts. |
 | `explain` | Explains one thing in plain language with no decisions attached: the subject as observed, the mechanism, every term translated, one everyday comparison, then a dialogue that gets smaller when it does not land. Nothing is changed. | Nothing beyond the agent. |
 | `untangle` | Turns the agent's own pile (findings, options, jargon, a status dump) into small plain-language decisions walked one per turn, each with a recommendation, with what is already decided kept apart from what is open. | Nothing beyond the agent. |
-| `recenter` | Untangle for the whole session: the plain picture from the first message on, threads sorted into done, open, and not this chat, the open ones walked one per turn with a recommended destination (finish here, drop, park, new chat, memory), and a verdict: continue with a short agenda, or close and seal the session. | Nothing beyond the agent; uses a task tracker and a memory tool when connected. |
 | `wayfinder` | Charts a piece of work too big for one session as a shared map on the issue tracker: a map issue naming the destination, child tickets that each resolve one decision, native blocking between them, and a fog-of-war section for what cannot be ticketed yet; later sessions work it one ticket at a time. User-invoked only. | An issue tracker the agent can create, label, assign, link, and close issues on (falls back to local markdown). |
 | `research` | Sends a background agent to investigate a question against primary sources and write one cited markdown file where the project keeps its notes, or to a connected memory tool when there is no repository. | A background agent facility; otherwise nothing beyond the agent. |
 | `prototype` | Builds a throwaway prototype that answers one design question: a single-file HTML demo of a state model, several UI variants on one route, or for non-code work a rough draft of the artifact itself. No persistence, no polish, captured on a throwaway branch when done. | A project to sit next to; the UI branch uses the project's task runner. |

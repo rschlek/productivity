@@ -7,11 +7,11 @@ description: >-
   already decided separated from what is still open. Use when the user says "I
   don't understand", "break this down", "simplify this", "one decision at a
   time", "walk me through them", "too much to review at once", "I'm
-  overwhelmed", "plain English", or "I don't remember my open decisions". Also use unprompted when a reply would hand the user more
+  overwhelmed", "plain English", "where do we stand", or "I don't remember my
+  open decisions". Also use unprompted when a reply would hand the user more
   than three open decisions at once. Do NOT use for stress-testing a plan the
   user already has (that is grill-me), for understanding one thing with no
-  decisions attached (that is explain), for reorienting a whole chat around
-  its original purpose (that is recenter), or for cleaning up code.
+  decisions attached (that is explain), or for cleaning up code.
 ---
 
 # Untangle
@@ -72,10 +72,9 @@ arrived as a pile. Hand it back as decisions they can answer in a word.
   only in the text above it, and it is still one decision per prompt.
 - The same walk fits reviewing long material: one section per turn, with what
   that section is for stated in plain words directly above it.
-- A status request about the agent's current pile is steps 2, 3 and 8 without
-  the walk: the picture, the three buckets, and one closing question. Start the
-  walk only if the user wants to settle the open ones now. A status request
-  about the whole chat ("where were we") is recenter.
+- Status requests ("where do we stand") are steps 2, 3 and 8 without the walk:
+  the picture, the three buckets, and one closing question. Start the walk only
+  if the user wants to settle the open ones now.
 - Direction is the difference from grill-me: grill-me pulls answers out of the
   user about their plan; this hands the agent's pile to the user in pieces. When
   one decision needs something understood before it can be asked, settle that
