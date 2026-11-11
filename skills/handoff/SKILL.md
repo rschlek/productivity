@@ -4,9 +4,9 @@ description: >-
   Compact the current conversation into a handoff document for another agent to
   pick up. Use when the user says "hand this off", "write a handoff", "handoff
   doc", "/handoff", or "package this up for another agent". Do NOT use to open
-  the next chat itself in a new tab, or to save the session's durable knowledge
-  to long-term memory before context is lost (each is a different job), or to
-  sort the agent's own open decisions for the user (that is untangle).
+  the next chat itself in a new tab, to save the session's durable knowledge to
+  long-term memory before context is lost, or to sort the agent's own open
+  decisions for the user (each is a different job).
 argument-hint: "What will the next session be used for?"
 ---
 

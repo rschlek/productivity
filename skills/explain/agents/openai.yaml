@@ -1,4 +1,0 @@
-interface:
-  display_name: "Explain"
-  short_description: "Explain one thing in plain language, with no decisions attached"
-  default_prompt: "Explain this plainly before you change anything."

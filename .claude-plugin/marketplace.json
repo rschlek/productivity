@@ -8,7 +8,7 @@
     {
       "name": "productivity",
       "source": "./",
-      "description": "Portable productivity skills: handoff documents, plan grilling, watchdogs outside the chat, plain-language explanations, one-at-a-time decision walks, wayfinding maps of big efforts, cited research notes, throwaway prototypes, domain modeling, and skill authoring.",
+      "description": "General tools for any agent process: watchdogs outside the chat, skill authoring, and session handoffs.",
       "category": "productivity"
     }
   ]
